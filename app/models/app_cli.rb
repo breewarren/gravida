@@ -1,2 +1,2 @@
-class AppCLI
+class AppCLI < ActiveRecord::Base
 end

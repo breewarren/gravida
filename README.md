@@ -36,7 +36,7 @@ DESCRIPTION GOES HERE!!!!!!!!
 ### Provider <br />
 * A MedicalProvider has many Pregnancies <br />
 * A MedicalProvider has many Users, through Pregnancies <br />
------
+
 ## SQL Database Table Properties
 ### User Table Properties
 * First Name
@@ -45,7 +45,6 @@ DESCRIPTION GOES HERE!!!!!!!!
 * Password
 * Email Address
 * Age
-
 
 ### Pregnancy Table Properties
 * Description (ex: Name of Baby)
