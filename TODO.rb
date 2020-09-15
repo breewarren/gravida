@@ -1,6 +1,6 @@
 - edit readme
 - edit license
-- add 'add bundle install' to readme
+- finish readme!
 
 
 app: gravida
@@ -31,9 +31,9 @@ age
 email
 
 Pregnancy
-pregnancy description (baby's name(s))
+pregnancy description (baby's name(s)) - 
 pregnancy status (ongoing, concluded)
-number of weeks 
+number of weeks  - 
 birth/death status (stillborn, live, abortion, miscarriage)
 delivery type (vaginal, ceserean section)
 gender
@@ -68,6 +68,7 @@ read
 update
     User#update_account (user can update column values of their :users table) (.update)
     User#update_pregnancy (user can update column values of their :pregnancies table) (.update)
+    User#update_medical_provider (User can update MedicalProvider information)
 delete
     User#deactivate_account (user can deactivate an account) (.destroy)
     User#delete_pregnancy (user can delete an instance of a pregnancy) (.destroy)
@@ -90,6 +91,12 @@ interface-based
     AppCLI.welcome
     AppCLI.login
     AppCLI.homepage
-    AppCLI.affirming_message
+    AppCLI.affirming_message (women being powerful, etc)
+    AppCLI.comforting_message (if baby was lost)
     AppCLI.about_gravida
     AppCLI.exit
+
+
+
+ 
+* A MedicalProvider has many Users, through Pregnancies <br />
